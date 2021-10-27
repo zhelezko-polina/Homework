@@ -1,0 +1,14 @@
+@mixin borders()
+    border:
+        style: solid
+        width: 2px
+        color: black
+        radius: 2px
+
+.button1
+    @include borders()
+    color: yellow
+
+.button2
+    @include borders()
+    margin: 5px

@@ -1,0 +1,16 @@
+.block {
+    width: 100px;
+    height: 28mm;
+    background-color: violet;
+    border: 2px dashed blue;
+}
+.text {
+    color: white;
+}
+.colored-block {
+    width: 200px;
+    height: 40mm;
+    background-color: teal;
+    border: 2px dashed blue;
+    border-radius: 1px;
+}

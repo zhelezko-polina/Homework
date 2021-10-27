@@ -1,0 +1,16 @@
+.button1 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 2px;
+  color: yellow;
+}
+
+.button2 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 2px;
+  margin: 5px;
+}
+/*# sourceMappingURL=style2.css.map */

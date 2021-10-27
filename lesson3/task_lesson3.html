@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_form.css">
+</head>
+<body>
+    <h2>Запись на курсы</h2>
+    <hr>
+   <form action="registration.php" method="POST"> <fieldset> 
+        <label for="Имя">Имя:</label><br>
+  <input type="text" id="Имя" required> <br>
+</fieldset>
+<fieldset>
+<label for="C++">Язык программирования:</label> <br>
+<p> <input name="lang" type="radio" value="C++" id="C++"> C++</p>
+<p> <input name="lang" type="radio" value="PHP" checked> PHP </p>
+<p> <input name="lang" type="radio" value="Python"> Python </p>
+</fieldset>
+<fieldset>
+    <label for="textarea">Дополнительная информация:</label> <br>
+  <textarea id="textarea"> Есть опыт программирования на С++</textarea>
+</fieldset>
+<fieldset>
+    <label for="password"> Секретное слово: <label> <br>
+    <input type="password" id="password">
+</fieldset>
+<fieldset>
+    <button type="submit>">Отправить</button>
+    <button type="reset">Очистить</button>
+</fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.block{
+    width: 700px;
+    height:700px;
+    background: url(https://img5.goodfon.ru/wallpaper/nbig/9/ec/fon-abstraktsiia-tekstura-1.jpg);
+    background-size: 700px 700px;
+}
+label{
+    color:white;
+}
+.image{
+width: 40px;
+height: 40px;
+}
+fieldset{
+    border: 0px;
+}

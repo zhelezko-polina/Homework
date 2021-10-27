@@ -1,0 +1,26 @@
+@mixin ordinary-text($fs)
+    font:
+        family: Times New Roman
+        size: $fs
+        weight: 500
+
+.block
+    background-color: red
+    margin: 10px
+#main-container
+    @include ordinary-text(25px)
+    &:hover
+        background:
+            color: blue
+    div
+        margin:
+            left: 5px
+            right: 5px
+    margin:
+        left: 5px
+        right: 5px
+    border:
+        style: solid
+        width: 2px
+        radius: 5px
+        color: black

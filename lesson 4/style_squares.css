@@ -1,0 +1,27 @@
+.red_square{
+    left: 100px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    background-color: red;
+    position: absolute;
+}
+.green_square{
+    position: relative;
+    left: 160px;
+    top: 160px;
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+        background-color: rgb(9, 223, 9);
+}
+.blue_square{
+    position:absolute;
+    left: 240px;
+    top: 240px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+        background-color: blue;
+}

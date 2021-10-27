@@ -1,0 +1,271 @@
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    color: white;
+    background: url(https://rusregister.ru/wp-content/uploads/2018/11/sitemap-800x500.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading{
+    margin-bottom: 10px;
+}
+.header_text{
+    margin-top: 10px;
+}
+.header_link{
+display: flex;
+color: white;
+width: 100px;
+height: 30px; 
+background-color: rgb(36, 36, 36);
+border: 1px solid white;
+justify-content: center;
+align-self: center;
+text-align: center;
+padding: 4px 4px 4px 4px;
+}
+.section1{
+    height: 120px;  
+}
+.section1_heading{
+    text-align: center;
+}
+.article_1{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+.article1_text{
+    display: flex; 
+    align-items: center; 
+    margin-left: 300px; 
+    text-align: center;
+}
+.article1_text2{
+    display: flex; 
+    align-items: center; 
+    margin-right: 300px; 
+    text-align: center;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(54, 53, 53);
+    z-index:1;
+    height: 400px;
+}
+.article2{
+    width:200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+    margin: 25px 10px 25px 200px;
+}
+.article2_picture{
+    display: flex;
+    width: 200px;
+    height: 150px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.article2_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.article2_text{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+.article3{
+    width:200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+    margin: 25px 10px 25px 10px;
+}
+.article3_picture{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.article3_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.article3_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+.article4{
+    width:200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+    margin: 25px 200px 25px 10px;
+}
+.article4_picture{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.article4_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.article4_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+.section3{
+    height: 140px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section3_heading{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+.section3_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    }
+.general_info{
+    display: flex;
+    height: 230px;
+    margin-bottom: -10px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    width: 50%;
+    background-color: rgb(13, 92, 238);
+    color: white;
+}
+.contact_us{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.contact_info{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.email{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.about_us{
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    width: 50%;
+    background-color: rgb(54, 53, 53);
+    color: white;
+}
+.about_us_heading{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+}
+.about_us_info{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.parent > div {
+    float: left;
+    width: 28%;
+    margin-left: 14%;
+    text-align: center;
+}
+footer{
+    display: flex;
+    height: 50px;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    margin-top: -20px;
+}
+.footer_logo{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+}
+.project_by{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center; 
+    }

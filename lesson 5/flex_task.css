@@ -1,0 +1,30 @@
+.flex_container{
+    display: flex;
+    height: 800px;
+    width: 600px;
+    background-color: plum;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 3px solid black;
+}
+.flex_box:nth-child(2){
+    align-self: flex-start;
+}
+.flex_box{ 
+    border: 3px solid black;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition-duration: 3s;
+    border-radius: 0;
+    box-shadow: none;
+}
+.flex_box:last-child:hover{
+    background-color: blue; 
+    transition-duration: 3s;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    box-shadow: 10px 10px 0 0 darkgrey;m 
+}

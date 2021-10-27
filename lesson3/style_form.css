@@ -1,0 +1,7 @@
+fieldset {
+    border: 0px;
+}
+#textarea{
+    width: 400px;
+    height: 100px;
+}
